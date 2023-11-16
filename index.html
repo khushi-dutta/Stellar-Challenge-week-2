@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="heading"><h1>Web Development</h1></div>
+
+
+    <div class="accordion">
+        <div class="contentBx">
+            <div class="label"><h2>What is Web Development?</h2></div>
+            <div class="content">
+                <p>
+                    Web development involves creating and maintaining websites or web applications. It encompasses various aspects like front-end development focusing on the user interface and user experience, back-end development handling server-side operations and databases, and full-stack development combining both. It includes coding in languages such as HTML, CSS, and JavaScript for front-end, and languages like Python, Ruby, or PHP for back-end. Developers use frameworks and tools like React, Angular, Node.js, and Django to streamline the development process. Web development aims to build functional, visually appealing, and responsive websites that cater to user needs while adhering to coding standards and best practices for optimal performance.
+            </div>
+        </div>
+    
+        <div class="contentBx">
+            <div class="label"><h2>Why should we learn Web Development?</h2></div>
+            <div class="content">
+                <p>
+                    Learning web development offers diverse advantages. It empowers individuals to craft digital experiences, fostering creativity and problem-solving. In today's tech-driven world, web development skills are highly sought-after, offering lucrative career opportunities and freelance prospects. Understanding web development provides autonomy to create personal projects or launch businesses online, reaching a global audience. It fosters adaptability, allowing for continuous learning and keeping pace with evolving technologies. Moreover, web development proficiency enhances collaboration within multidisciplinary teams, fostering innovation and driving digital transformation across industries. Ultimately, it equips individuals with versatile skills essential in the digital era, empowering them to shape the future of the internet.
+                </p>
+            </div>
+        </div>
+    </div>
+    <script>
+        const accordion = document.getElementsByClassName('contentBx');
+        for (i = 0; i<accordion.length; i++){
+            accordion[i].addEventListener('click',function(){
+                this.classList.toggle('active')
+            })
+        }
+    </script>
+    <br>
+    <br>
+    <h3><u>Parts of web development</u></h3>
+    <br>
+    <br>
+
+    <div class="card">
+        <div class="card-section">
+            <div class="abc">
+                <a href="frontend.html"><button><h2>Frontend</h2></button></a>
+                <br>
+                <br>
+                <p>The frontend refers to the user interface and presentation layer of a software application or website that users interact with directly. It encompasses everything users see, interact with, and experience, including layouts, design, buttons, forms, and content. Frontend development involves using technologies like HTML, CSS, and JavaScript to create a visually appealing, intuitive, and responsive interface that communicates effectively with the backend. It focuses on user experience (UX) and user interface (UI) design, ensuring seamless interaction, accessibility, and functionality across various devices and browsers for an engaging and user-friendly experience.</p>
+            </div>
+
+            <div class="abc">
+                <a href="backend.html"><button><h2>Backend</h2></button></a>
+                <br>
+                <br>
+                <p>The backend refers to the server-side of software applications, handling data storage, manipulation, and business logic. It comprises databases, server-side scripting, and the application's core logic, unseen by users. It interacts with the frontend, processing requests, managing user authentication, and delivering dynamic content. Backend technologies include server frameworks like Node.js, databases such as MySQL or MongoDB, and server-side languages like Python, Java, or PHP. It ensures data integrity, security, and the overall functionality of an application, enabling communication between the frontend and databases while managing the application's server, ensuring smooth user experiences.</p>
+            </div>
+        </div>
+    </div>
+    <br>
+    <div class="youtube" style="width: 960px; margin:auto; border: 20px";>
+        <h3><u>Roadmap for Web Development</u></h3>
+        <br>
+        <br>
+        <br>
+        <iframe width="960" height="470" src="https://www.youtube.com/embed/z0n1aQ3IxWI?si=I6cn1IDq1OdJyoyF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
+    <br>
+    <br>
+    <br>
+
+
+
+
+
+    
+
+</body>
+</html>
